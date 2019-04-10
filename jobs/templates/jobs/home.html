@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
   <meta name="generator" content="Jekyll v3.8.5">
-  <title>Album example · Bootstrap</title>
+  <title>Yihwa Kim</title>
 
   <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/album/">
 
@@ -36,15 +36,15 @@
 <body>
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">Yihwa Kim</a>
+      <a class="navbar-brand" href="{% url 'home' %}">Yihwa Kim</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ml-auto">
-          <a class="nav-item nav-link" href="#">Twitter</a>
+          <a class="nav-item nav-link" href="https://www.linkedin.com/in/yihwa-kim-6bb1584/">LinkedIn</a>
           <a class="nav-item nav-link" href="{% static 'resume.pdf' %}">Resume</a>
-          <a class="nav-item nav-link" href="#">Blog</a>
+          <a class="nav-item nav-link" href="{% url 'allblogs' %}">Blog</a>
         </div>
       </div>
     </nav>
@@ -59,8 +59,9 @@
         <p class="lead text-muted">Hey, I am Yihwa Kim. I love designing webapps with Django. You can do lots of cool stuff with Django! </p>
         <p>
           <a href="mailto:iamyihwa@gmail.com" class="btn btn-primary my-2">Email me</a>
-        </p>
-                <img src = "{% static 'yihwa.jpg' %}"  style="transform:rotate(270deg);" width = 100/>
+            </p>
+                <img src = "{% static 'yihwa1.png' %}"   width = 100/>
+
       </div>
     </section>
 
